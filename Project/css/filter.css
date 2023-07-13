@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand' , sans-serif;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu-mobiles {
+  text-align: center;
+  font-size: 16px;
+  background-color: #000;
+  color: #fff;
+  text-transform: uppercase;
+  padding: 5px 0;
+}
+
+.sidenavss {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
+}
+
+.sidenavss a {
+  padding: 5px 20px 8px 32px;
+  text-decoration: none;
+  font-size: 14px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  border-bottom: 1px solid #ddd;
+}
+
+.sidenavss a:hover {
+  color: #f1f1f1;
+}
+
+.sidenavss .closebtn {
+  position: absolute;
+  top: 0;
+  right: 10px;
+  font-size: 36px;
+  border: none;
+}
+
+.filter-prices {
+  margin-top: 37px;
+}
+
+.color-tilte {
+  font-weight: 600;
+  font-size: 15px;
+  padding: 10px 0;
+}
+
+.filter-colorss {
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.check-box-lists li {
+  float: left;
+  min-width: 35px;
+  height: 35px;
+  background: #fff;
+  line-height: 32px;
+  margin: 0 5px 5px 0;
+  border: 1px solid #f2f2f2;
+  text-align: center;
+}
+
+.filter-colorss li {
+  margin: 0 5px 0 0;
+  float: left;
+}
+
+.filter-colorss li label {
+  width: 25px;
+  height: 25px;
+  padding-top: 6px;
+  padding-left: 6px;
+  float: left;
+  margin-bottom: 5px;
+}
+
+.input-checkbox {
+  margin-bottom: 15px;
+}
+
+.filter-color {
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  padding: 7px 10px;
+  background-color: #000;
+  font-weight: 300;
+  font-size: 13px;
+  padding: 5px 0;
+  text-transform: uppercase;
+}
+
+.filter-product {
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+
+#red, #black, #blue, #orange, #yellow, #xam {
+  -webkit-animation: slide-down .3s ease-out;
+  -moz-animation: slide-down .3s ease-out;
+  -webkit-animation: slide-down .3s ease-in;
+  -moz-animation: slide-down .3s ease-in;
+}
+
+@-webkit-keyframes slide-down {
+  0% {
+      opacity: 0;
+  }
+  20% {
+      opacity: 1;
+  }
+
+}
