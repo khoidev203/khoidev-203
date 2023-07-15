@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+
+</style>
+
+<body>
+    <form>
+        <div class="wrapper__form">
+            <div class="form__group">
+                <input id="check__form" name="password" onkeyup="checkForm()" class="check__type" type="password" required>
+                <span class="password__placeholder">Nhập mật khẩu</span>
+                <div class="notification__error">
+                </div>
+                <div class="hidden__password">
+                    <div class="show__password-icon">
+                        <i class="fa-regular fa-eye"></i>
+                    </div>
+
+                </div>
+                <div class="show__password">
+                    <div class="hidden__password-icon">
+                        <i class="fa-regular fa-eye-slash"></i>
+                    </div>
+                </div>
+            </div>
+    </form>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
